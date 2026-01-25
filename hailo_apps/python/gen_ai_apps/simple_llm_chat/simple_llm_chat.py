@@ -49,7 +49,7 @@ def main():
 
         prompt = [
             {"role": "system", "content": [{"type": "text", "text": 'You are a helpful assistant.'}]},
-            {"role": "user", "content": [{"type": "text", "text": 'Tell a short joke.'}]}
+            {"role": "user", "content": [{"type": "text", "text": 'Why is the sky blue?'}]}
         ]
 
         print("[3/4] Sending prompt to LLM...")
